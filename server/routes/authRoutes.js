@@ -5,7 +5,7 @@ const {test, registerUser, loginUser, getProfile} = require('../controllers/auth
 
 router.use(
   cors({
-    origin: "https://backendauth-frontend.onrender.com/#",
+    origin: "https://backendauth-frontend.onrender.com",
     credentials: true,
   })
 );
