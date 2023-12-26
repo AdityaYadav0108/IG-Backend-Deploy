@@ -35,9 +35,12 @@ function Home() {
           Ready to explore? Click the button below to get started.
         </p>
         <p className="lead">
-          <a className="btn btn-primary btn-lg" href="/register" role="button">
+          {/* <a className="btn btn-primary btn-lg" href="/Register" role="button">
             Register Now
-          </a>
+          </a> */}
+          <Link className="btn btn-primary btn-lg" to="/register" aria-current="page">
+            Register Now
+          </Link>
         </p>
       </div>
     </div>
